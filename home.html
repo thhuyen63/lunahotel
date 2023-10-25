@@ -6,19 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/home.css">
 
+    
     <!--Font Awesome-->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-
-
-    <!-- Latest compiled and minified CSS -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-
-    <!-- jQuery library -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
-
-    <!-- Latest compiled JavaScript -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
 
     <title>Luna Eclat</title>
 </head>
@@ -67,9 +58,9 @@
             <img src="./assets/images/logo.png" alt="" class="logo">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Service</a></li>
+                <li><a href="#about-us">About us</a></li>
                 <li><a href="#">Our rooms</a></li>
+                <li><a href="#">Service</a></li>
                 <li><a href="#">Book now</a></li>
             </ul>
         </div>
@@ -86,7 +77,7 @@
     
     <!--MỞ ĐẦU-->
 
-    <div class="aboutus">
+    <div class="aboutus" id="about-us">
         <div class="img-aboutus">
             <img src="/assets/images/lobby.png" alt="" class="lobby">
             <!-- <img src="/assets/images/lobby-5.jfif" alt="" class="lobby-2"> -->
@@ -156,6 +147,145 @@
 
 
 
+    <!--PHẢN HỒI-->
+    <div class="feedback">
+        <div class="rating">
+            <span class="per">87% <br></span>
+            <span class="text">of our guests would recommend this hotel</span>
+            
+    
+            <div class="star facility-rating__dots dot--4-5">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i> <p> SERVICE</p>
+            </div>
+            <div class="star facility-rating__dots dot--4-5">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i><p> CLEANLINESS</p>
+            </div>
+            <div class="star facility-rating__dots dot--4-5">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i><p> LOCATION</p>
+            </div>
+            <div class="star facility-rating__dots dot--4-5">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i><p> VALUE</p>
+            </div>
+        </div>
+    
+        <div class="container">
+        
+            <div class="contents-wraper">
+                
+                <!-- <section class="header"><h1>Đánh giá</h1></section> -->
+        
+                <section class="testRow">
+                    
+                    <div class="testItem active">
+                        <h3>Jane Doe</h3>
+                        <h4>San Francisco, USA</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+        
+                    <div class="testItem">
+                        <h3>Jane Doe</h3>
+                        <h4>San Francisco, USA</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+        
+                    <div class="testItem">
+                        <h3>Jane Doe</h3>
+                        <h4>San Francisco, USA</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+        
+                    <div class="testItem">
+                        <h3>Jane Doe</h3>
+                        <h4>San Francisco, USA</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+        
+                    <div class="testItem">
+                        <h3>Jane Doe</h3>
+                        <h4>San Francisco, USA</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+        
+                </section>
+        
+                <section class="indicators">
+                    <div class="dot active" attr='0' onclick="switchTest(this)"></div>
+                    <div class="dot" attr='1' onclick="switchTest(this)"></div>
+                    <div class="dot" attr='2' onclick="switchTest(this)"></div>
+                    <div class="dot" attr='3' onclick="switchTest(this)"></div>
+                    <div class="dot" attr='4' onclick="switchTest(this)"></div>
+                </section>
+        
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+        <!--PROMO-->
+        
+        <div class="promo-itv">
+            <div class="award-text">
+                <p>AWARDS & ACCREDITATIONS<br><br><br>Enjoy an award-winning experience. See select accolades below.</p>
+            </div>
+    
+            <div class="press-text">
+                <p>PRESS<br><br><br>Glimpse what the world's publications have to say about Luna Eclat.</p>
+            </div>
+        </div>
+        <div class="promo">
+            <div class="award">
+                <span><img src="/assets/images/award-2.webp" alt=""></span>
+                <span><img src="/assets/images/award-3.webp" alt=""></span>
+                <span><img src="/assets/images/award-4.webp" alt=""></span>
+                <span><img src="/assets/images/award-5.webp" alt=""></span>
+            </div>
+    
+            <div class="press">
+                <span><img src="/assets/images/press-1.jpg" alt=""></span>
+                <span><img src="/assets/images/press-2.jpg" alt=""></span>
+                <span><img src="/assets/images/press-3.webp" alt=""></span>
+            </div>
+        </div>
+    
+    
+
+        
+    <!--Gallery-->
+    <div class="gallery">
+        <div class="grid-container">
+            <div class="grid-item"><p>LUNA ECLAT MOMENTS<br><br>
+                Share your memories with <br> <i class="fab fa-instagram icon-cus"></i> @lunaeclathotel</p></div>
+            <div class="grid-item"><img src="/assets/images/bar-6.jfif" alt=""></div>
+            <div class="grid-item"><img src="/assets/images/bar-2.jpg" alt=""></div>  
+            <div class="grid-item"><img src="/assets/images/event-1.jpg" alt=""></div>
+            <div class="grid-item"><img src="/assets/images/res-3.jfif" alt=""></div>
+            <div class="grid-item"><img src="/assets/images/lobby-6.jfif" alt=""></div>  
+            <div class="grid-item"><img src="/assets/images/kitchen-1.jfif" alt=""></div>
+            <div class="grid-item"><img src="/assets/images/bar-7.jfif" alt=""></div>
+        </div>
+    </div>
+
+        
+
+
     <!--Liên hệ-->
 
     <div class="contact">
@@ -203,60 +333,6 @@
     </div>    
 
 
-    <!--PHẢN HỒI-->
-    <div class="container">
-	
-        <div class="contents-wraper">
-            
-            <!-- <section class="header"><h1>Đánh giá</h1></section> -->
-    
-            <section class="testRow">
-                
-                <div class="testItem active">
-                    <h3>Jane Doe</h3>
-                    <h4>San Francisco, USA</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-    
-                <div class="testItem">
-                    <h3>Jane Doe</h3>
-                    <h4>San Francisco, USA</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-    
-                <div class="testItem">
-                    <h3>Jane Doe</h3>
-                    <h4>San Francisco, USA</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-    
-                <div class="testItem">
-                    <h3>Jane Doe</h3>
-                    <h4>San Francisco, USA</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-    
-                <div class="testItem">
-                    <h3>Jane Doe</h3>
-                    <h4>San Francisco, USA</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-    
-            </section>
-    
-            <section class="indicators">
-                <div class="dot active" attr='0' onclick="switchTest(this)"></div>
-                <div class="dot" attr='1' onclick="switchTest(this)"></div>
-                <div class="dot" attr='2' onclick="switchTest(this)"></div>
-                <div class="dot" attr='3' onclick="switchTest(this)"></div>
-                <div class="dot" attr='4' onclick="switchTest(this)"></div>
-            </section>
-    
-        </div>
-    </div>
-
-
-    <!--Gallery-->
 
     <!--FOOTER-->
 
