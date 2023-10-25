@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/css/booking.css">
+    
+    <!--Font Awesome-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!--Ionicons-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="nux" id="nud">
+        <button class="nud" type="button" onclick="myForm()">Book</button>
+    </div>
+    <header>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+    
+                <div class="slide first">
+                    <img src="/assets/images/slider-2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/assets/images/slider-11.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/assets/images/slider-9.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="/assets/images/slider-7.jpg" alt="">
+                </div>
+    
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label> 
+    
+            </div>
+        </div>
+    
+        <div class="banner">
+            <div class="nav">
+                <img src="/assets/images/logo.png" alt="" class="logo">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html#about-us">About us</a></li>
+                    <li><a href="#">Our rooms</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="booking.html">Book now</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1 class="title">Book now</h1>
+                <p class="title-2">Where Brilliance Meets Tranquility</p><br>
+                <div>
+                    <a href="home.html"><button type="button"><span></span>Home</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main id="mainContent">
+        <!--phan1--> 
+        <p class="title">Booking a room<br><img src="/assets/images/decor-1.png" alt=""></p>
+        
+        <div id="block">
+            <div class="container-sm box" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+                <div class="row padd">
+                    <div class="col-sm-5 col-xs-5">
+                        <img src="/assets/images/room-1.jpg" class="hinh">
+                    </div>
+                    <div class="col-sm-7 col-xs-7">
+                        <h2>Standard room</h2></br>
+                        <p>Our Standard rooms offer a comfortable and inviting retreat for both leisure and business travelers. With essential amenities and a warm ambiance, these rooms are designed to ensure a pleasant stay</p>
+                       <p><b>Bed size : </b> King, Sofa bed  <br><b>Room area : </b> 20m<sup>2</sup></p>
+                        <div class="price"> 
+                            <label for="room" >
+                                <select name="type" id="roomType1" class="roomtype">
+                                    <option value="0" selected>Room type</option>
+                                    <option value="1">Single room</option>
+                                    <option value="2">Twin room</option>
+                                    <option value="3">Double room</option>
+                                </select>
+                            </label>
+                            <label for="numberroom">
+                                <select name="number" id="roomNumber1" class="number">
+                                    <option value="0" selected>0</option>
+                                    <option value="1" >1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--phan 2-->
+        <div id="block">
+            <div class="container-sm box">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <img src="/assets/images/room-4.jpg" class="hinh">
+                    </div>
+                    <div class="col-sm-7">
+                        <h2>Superior room</h2></br>
+                        <p>Enjoy a breathtaking view of Hanoi from the height of our Deluxe room
+                       featuring modern design. All rooms are furnished with a choice of 1 
+                       extra-large double bed or twin beds with feather pillows. Our Deluxe 
+                       rooms ensure a classy relaxing experience... more details</p>
+                        <p><b>Bed size : </b> King, Sofa bed, Bay view   <br><b>Room area : </b> 25m<sup>2</sup></p>
+                        <div class="price">
+                            <label for="room" >
+                                <select name="type" id="roomType2" class="roomtype">
+                                    <option value="4" selected>Room type</option>
+                                    <option value="5">Single room</option>
+                                    <option value="6">Twin room</option>
+                                    <option value="7">Double room</option>
+                                </select>
+                            </label>
+                            <label for="numberroom">
+                                <select name="number" id="roomNumber2" class="number">
+                                    <option value="0" selected>0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--phan 3-->
+        <div id="block">
+           
+            <div class="container-sm box">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <img src="/assets/images/room-6.jpg" class="hinh">
+                    </div>
+                    <div class="col-sm-7">
+                        <h2>Deluxe room</h2></br>
+                        <p>Enjoy a breathtaking view of Hanoi from the height of our Deluxe room
+                       featuring modern design. All rooms are furnished with a choice of 1 
+                       extra-large double bed or twin beds with feather pillows. Our Deluxe 
+                       rooms ensure a classy relaxing experience... more details</p>
+                        <p><b>Bed size : </b> King, Sofa bed, Bay view  <br><b>Room area : </b> 32m<sup>2</sup></p>
+                        <div class="price">
+                            <label for="room" >
+                                <select name="type" id="roomType3" class="roomtype">
+                                    <option value="8" selected>Room type</option>
+                                    <option value="9">Deluxe King</option>
+                                    <option value="10">Deluxe Twin</option>
+                                    <option value="11">Deluxe Double</option>
+                                    <option value="12">Deluxe Triple</option>
+                                </select>
+                            </label>
+                            <label for="numberroom">
+                                <select name="number" id="roomNumber3" class="number">
+                                    <option value="0" selected>0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--phan 4-->
+        <div id="block">
+            <div class="container-sm box">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <img src="/assets/images/room-3.jpg" class="hinh">
+                    </div>
+                    <div class="col-sm-7">
+                        <h2>Suite</h2></br>
+                        <p>Enjoy a breathtaking view of Hanoi from the height of our Deluxe room
+                       featuring modern design. All rooms are furnished with a choice of 1 
+                       extra-large double bed or twin beds with feather pillows. Our Deluxe 
+                       rooms ensure a classy relaxing experience... more details</p>
+                        <p><b>Bed size : </b> King, Sofa bed, Bay view   <br><b>Room area : </b> 40m<sup>2</sup></p>
+                        <div class="price">
+                            <label for="room" >
+                                <select name="type" id="roomType4" class="roomtype">
+                                    <option value="13" selected>Room type</option>
+                                    <option value="14">Junior Suite</option>
+                                    <option value="15">Executive Suite</option>
+                                </select>
+                            </label>
+                            <label for="numberroom">
+                                <select name="number" id="roomNumber4" class="number">
+                                    <option value="0" selected>0</option>
+                                    <option value="1">1</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="containers">
+        <form class="form-login" id="infoForm">
+            <h1>Customer information</h1><br>
+            <div class="form-text">
+                <div class="form-text-1">
+                    <label for="name"><b>Name </b></label>
+                    <input type="text" placeholder="enter your name" name="name" id="name" required>
+                </div>
+            </div>
+            <div class="form-text">
+                <div class="form-text-1">
+                    <label for="email"><b>Email </b></label>
+                    <input type="email" placeholder="enter your email" name="email" id="email" required>
+                </div>
+                <div class="error-container" id="emailErrorContainer"></div>
+            </div>
+            <div class="form-text">
+                <div class="form-text-1">
+                    <label for="name"><b>Phone</b></label>
+                    <input type="text" placeholder="enter your number phone" name="phone" id="phone" required>
+                </div>
+                <div class="error-container" id="errorContainer"></div>
+            </div>
+            <div class="form-text">
+                <div class="form-text-1">
+                    <label for="name"><b>Start Time </b></label>
+                    <input type="date" name="date" id="Sdate" required>
+                    <div class="error-container" id="startDateErrorContainer"></div>
+                </div>
+            </div>
+            <div class="form-text">
+                <div class="form-text-1">
+                    <label for="name"><b>End Time </b></label>
+                    <input type="date" name="date" id="Edate" required>
+                    <div class="error-container" id="endDateErrorContainer"></div>
+                </div>
+            </div>
+            <div class="form-text">
+                <button type="button" class="btn2" onclick="closeForm()">Back</button>
+                <button type="button" class="btn1 " onclick="printDisplay()">Next</button>
+            </div>
+        </form>
+        <div id="infoOutput">
+            <div class="output" id="outputContent"></div>
+            <div class="btnOut">
+                <button type="button" class="btn4" onclick="openForm()">Back</button>
+                <button type="button" class="btn3" onclick="Ffinish()">Next</button>
+            </div>
+        </div>
+        <div id="ifinish" class="outFinish">
+            <div type="button" class="closeFinish" onclick="closeFinish()">&#10006;</div>
+            <div><h4><b>Dear Sir/Madam,</b></h4></div>
+            <p> We want to express our sincere gratitude for choosing to stay with us at Luna Eclat Hotel. Your trust in us is greatly appreciated. We are committed to providing you with a memorable and comfortable experience.<br><br>
+
+                If there is anything you need during your stay, please don't hesitate to reach out to our team. We look forward to ensuring your time with us is truly special.<br><br>
+                
+                Thank you once again for choosing Luna Eclat Hotel.<br>
+                
+                <br></p>
+            <p>Best regards,</p>
+            <b id="outputName"></b><br>
+            <a href="home.html"><button type="button" class="btn5" onclick="Home()">Back Home</button></a>
+            
+        </div>
+    </div>
+
+    <footer class="footer-main" id="footer">
+            <div class="footer-left">
+                <div class="top">
+                    <div id="current-time"></div>
+                    
+                    <div id="current-hours"></div>
+                </div>
+                <div><p class="separator"></p></div>
+    
+                <div class="bottom">
+                    <div class="social">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook icon-cus"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram icon-cus"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter icon-cus"></i></a></li>
+                        </ul>
+                    </div>
+    
+                    <p class="copyright">
+                        <br>Copyright &copy; 2023 by Luna Éclat bảo lưu mọi quyền<br><br>
+                        Website by Nhóm 5
+                    </p>
+                </div>
+            </div>
+    
+            <div class="footer-right">
+                    <div>
+                        <p class="text-name">LUNA ÉCLAT HOTEL</p><br>
+                        <p>Số 3 phố Cầu Giấy, P.Láng Thượng, Q.Đống Đa, Hà Nội.</p><br>
+                        <p>Hotline: +84 11111111</p>
+                        <p>Phone: +84 11111111</p><br>
+                        <p>Email: info@lunaeclathotel.com</p>
+                    </div>
+    
+                    <div class="address"></div>
+            </div>
+    </footer>
+    <script src="/assets/js/booking.js"></script>
+</body>
+</html>
