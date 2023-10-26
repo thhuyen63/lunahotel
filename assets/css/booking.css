@@ -32,6 +32,18 @@
   --mushroom: #928A74;
 }
 
+::-webkit-scrollbar {
+  background-color: #f4f4f4;
+  width: 7px;
+  
+}
+
+/* Thay đổi màu của thanh cuộn */
+::-webkit-scrollbar-thumb {
+  background-color: var(--forest);
+  border-radius: 15px;
+}
+
 /*custom bootrap  */
 .container,
 .container-sm {

@@ -29,6 +29,18 @@
     --putty: #C2CCC5;
     --mushroom: #928A74;
 }
+
+::-webkit-scrollbar {
+    background-color: #f4f4f4;
+    width: 7px;
+    
+  }
+  
+  /* Thay đổi màu của thanh cuộn */
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--forest);
+    border-radius: 15px;
+  }
 *{
     margin: 0;
     padding: 0;
@@ -70,7 +82,7 @@
     width: 100%;
     align-items: center;
     height: 10%;
-    z-index: 2;
+    z-index: 5;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   
   }
@@ -285,7 +297,10 @@ h2 {
     margin-bottom: 20px;
     margin-left: 30px;
     margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
 }
+
 
 .img-list {
     margin-left:60px ;
@@ -326,6 +341,26 @@ h2 {
 .h2 {
     opacity: 0;
     transition: all 1s;
+    padding-left: 40px;
+    padding-top: 50px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.h2 h2{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.h2 .txt{
+    width: 50%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.h2 .txt {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .h2.active {
@@ -334,18 +369,22 @@ h2 {
 }
 
 .standard-1 {
-    background-image: url("/assets/images/img-standard-1.jfif");
+    background-image: url("/assets/images/standard-1.jpg");
     width: 350px;
+    padding-left: 50px;
+
 }
 
 .standard-2 {
-    background-image: url("/assets/images/img-standard-2.webp");
+    background-image: url("/assets/images/standard-2.jpg");
     width: 350px;
+
 }
 
 .standard-3 {
-    background-image: url("/assets/images/img-standard-3.webp");
+    background-image: url("/assets/images/standard-3.jpg");
     width: 350px;
+
 }
 #room-info1{
     display: none;
@@ -380,6 +419,7 @@ h2 {
     padding-left: 7px;
     margin: 9px auto;
     color: #fff;
+    
 }
 
 .room-infor p strong {
@@ -392,12 +432,14 @@ h2 {
 .room-infor #h6 {
     font-size: 12px;
 }
+
+
 .btn-brown {
     text-decoration: none;
     font-size: 18px;
-    padding: 3px 6px;
+    padding: 6px 6px;
     color: #fff;
-    background-color: #876d4c;
+    background-color: var(--light-green);
 }
 .stand-btn{
     margin-top: 30px;
@@ -421,8 +463,21 @@ h2 {
 }
 .su-text h2{
     padding-top: 80px;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
+
+
+.su-text p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
 .su-img img{
     width:450px;
     height: 500px;
@@ -457,6 +512,12 @@ h2 {
 }
 .deluxes h2{
     text-align: center;
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+
+.delu .h2{
+    padding-bottom: 20px;
 }
 .delu{
     font-size: 18px;
@@ -478,7 +539,7 @@ h2 {
     box-sizing: border-box;
 }
 .con-h2{
-    padding-top: 70px;
+   padding-top: 70px;
    width: 500px;
    margin-left: 50px;
    align-items: center;
@@ -488,6 +549,7 @@ h2 {
 }
 .con-h2 p{
     font-size: 18px;
+    text-align: center;
 }
 .containers .contents-wrapers{
     margin-top: 90px;
@@ -583,7 +645,8 @@ h2 {
     }
 
     .room-infor #h6 {
-        font-size: 8px;
+        font-size: 17px;
+    font-family: 'Raleway', sans-serif;
     }
 
     .btn-brown {
@@ -607,14 +670,16 @@ h2 {
 
     .text-infor p {
         margin-left: 10px;
+        
     }
 
     #h6 {
         display: none;
+
     }
 
     .btn-brown {
-        font-size: 10px;
+        font-size: 12px;
         margin: 10px 0 0 35px;
     }
 
